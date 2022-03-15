@@ -1,0 +1,99 @@
+
+
+/* css - formulario*/
+
+body{
+  background-color: #000;
+}
+.formulario {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  h1{
+    color: #ffffff;
+    font-size: 90;
+    font-family: 'Prompt', sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+    text-shadow:
+    0px 0px 10px #4133ff,
+    0px 0px 20px #4133ff,
+    0px 0px 40px #4133ff,
+    0px 0px 60px #4133ff,
+    0px 0px 80px #4133ff;
+}
+h2{
+  text-align: center;
+}
+
+  .formulario .form-register {
+    width: 400px;
+    background-image: linear-gradient(to bottom, #263646, #335370);
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: arial;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    grid-column: 1/2;
+  }
+  .formulario .form-register h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .formulario .form-register .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid dodgerblue;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  .formulario .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .formulario .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  .formulario .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .formulario .form-register .botons {
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 5.5px;
+    color: black;
+    font-size: 90;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow:
+    0px 0px 10px #4133ff,
+    0px 0px 20px #4133ff,
+    0px 0px 40px #4133ff,
+    0px 0px 60px #4133ff,
+    0px 0px 80px #4133ff;
+}
+  .formulario .form-register .botons:hover {
+    transform: scale(1.1);
+    background: #0a2036;
+    color: white;
+  }
+  

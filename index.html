@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <title>Desafío incorporar eventos e interactuar con HTML</title>
+</head>
+<body>        
+     <!--formulario Ingresar-->
+    
+     <div id="mensaje1" >
+
+    </div>
+    <div class="formulario" id="formulario">
+        <form method="POST" enctype="multipart/form-data">                    
+            <section class="form-register">       
+                <h2>Login</h2>   
+                    <label>Nombre:</label>                     
+                        <input  class="controls"  type="text" name="nombre" maxlength="100" placeholder="Ingresá tu nombre" id="user">
+                    <label>Contraseña:</label>
+                        <input class="controls" type="text" placeholder="Ingresá tu contraseña" id="pass">
+                        <label>Seleccioná tu Provincia:</label>
+                        <select id="mySelect">
+                            <option value="-1">Selecciona</option>
+                        </select>
+                
+                        <input class="botons" type="submit" name="enviar" value="Ingresar" id="botons">   
+            </section>
+          </form>
+    </div> 
+
+    <div id="provincias">
+
+    </div>
+    <div id="mensaje" >
+
+    </div>
+
+
+    <!--  Scripts -->
+   <script src="js/main.js"></script>
+</body>
+</html>
